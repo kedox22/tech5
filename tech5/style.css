@@ -1,0 +1,39 @@
+
+.container {
+background-image: url(bg.gif);
+background-repeat: no-repeat;
+
+background-size: 100% 100%;
+width: 90%;
+height: 50vh;
+margin: 0 auto;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.logo {
+    width: 30%;
+   
+}
+.navbar-links {
+    width: 80%;
+align-items: center;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+    font-family:'concert one', cursive, 'roboto', sans-serif;
+}
+.navbar-footer-links {
+    display: flex;
+    align-items: center;
+    width: 80%;
+align-items: right;
+}
